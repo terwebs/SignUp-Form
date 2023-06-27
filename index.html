@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ter_Webs Mock Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="Ometepe.jpg" class="side-image" alt="Ometepe">
+            <div class="logo">
+                <h1 id="Logo-tittle">Ter_Webs</h1>
+            </div>
+           
+        </div>
+        <div class="main">
+            <div class="section1">
+                <h2>This is <span>not</span> a <span>real</span> online service! you need something like this in your life to help you realize your deepest dreams.</h2>
+                <h2><span class="sign-up">Sign up</span> now to get started.</h2>
+            </div>
+            <div class="section2">
+                
+                <form class="create-account">
+                    <h2 class="form-tittle">Let's do this</h2>
+                    <section class="row">
+                        <div class="section-item">
+                            <label for="first-name">FIRST NAME</label>
+                            <br>
+                            <input type="text" id="first-name" name="firstName" required>
+                        </div>
+                        <div class="section-item">
+                            <label for="last-name">LAST NAME</label>
+                            <br>
+                            <input type="text" id="last-name" name="lastName" required>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="section-item">
+                            <label for="email">EMAIL</label>
+                            <br>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="section-item">
+                            <label for="phone">PHONE NUMBER</label>
+                            <br>
+                            <input type="text" id="phone" name="phoneNumber" part="tel">
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="section-item">
+                            <label for="password">PASSWORD</label>
+                            <br>
+                            <input type="password" id="password" name="password" required>
+                            <h5 id="match"></h5>
+                        </div>
+                        <div class="section-item">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <br>
+                            <input type="password" id="password-confirm" required>
+                        </div>
+                    </section>
+                    <button class="btn">Create Account</button>
+                </form>
+            </div>
+            <div class="section3">
+                <h2>Already have an account? <span><a href="">Log  In</a></span>
+            </div>
+        </div>
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
