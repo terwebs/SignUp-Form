@@ -175,13 +175,13 @@ input:focus {
 }
 
 .disabled{
-    background-color: gray;
+    background-color: rgba(254, 165, 114, 0.5)
 }
 
 .disabled:hover{
     cursor: not-allowed;
     transform: scale(1.0);
-    background-color: gray;
+    background-color: rgba(254, 165, 114, 0.5)
 }
 
 
