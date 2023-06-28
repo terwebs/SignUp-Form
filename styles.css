@@ -126,6 +126,13 @@ input{
     font-size: 1rem;
 }
 
+
+.phone{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
 input:hover{
     border: 2px solid black;
     background-color: rgba(254, 165, 114, 0.1);

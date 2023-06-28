@@ -35,7 +35,9 @@ password1.addEventListener('input', ()=>{
     }
 })
 
+
 const clear = ()=>{
     password1.classList.toggle("error")
     password2.classList.toggle("error")
 }
+
